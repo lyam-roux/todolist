@@ -4,5 +4,5 @@ Rails.application.routes.draw do
 
   root to: "tasks#index"
   # Defines the root path route ("/")
-  # root "articles#index"
 end
+# root "articles#index"
