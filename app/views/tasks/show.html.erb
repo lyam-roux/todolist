@@ -2,8 +2,8 @@
 <%= render @task %>
 
 <div>
-  <%= link_to "Modifier", edit_task_path(@task),  {:class => "btn btn-primary little-marg"} %> |
-  <%= link_to "Retour", tasks_path,  {:class => "btn btn-primary little-marg"} %>
+  <%= link_to "Modifier", edit_task_path(@task),  :class => "btn btn-primary little-marg" %> |
+  <%= link_to "Retour", tasks_path,  :class => "btn btn-primary little-marg" %>
 
   <%= button_to "suprimer", @task, method: :delete%>
 </div>    
