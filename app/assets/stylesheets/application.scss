@@ -14,5 +14,84 @@
  *= require_self
  */
  @import "bootstrap";
+ @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+
+
+
+ body{
+    background-image: url(backround.svg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .little-marg{
+        margin: 20px;
+    }
+
+
+    .margintop{
+        margin-top: 100px;
+    }
+    .nv{
+        margin-top: 100px;
+        margin-bottom: 50px;
+
+    }
+
+
+    a {text-decoration: none;}
+
+    H1{
+        font-size: 100px;
+        font-family: 'Poppins', sans-serif;
+    }
+    .Hone{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: 60px;
+        margin-bottom: 130px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+
+    .name{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+
+            
+    }
+     .name-statuts{
+         display: flex;
+         flex-direction: column;
+
+     }
+     .add{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         height: 50px;
+
+     }
+     .add a{
+         color: rgb(255, 255, 255);
+     }
+
+     .value{
+         display: flex;
+         align-items: flex-start;
+         flex-direction: column;
+     }
+
+     .margin-bottom{
+        margin-bottom: 50px;
+     }
+ }
+
+ 
 
  
